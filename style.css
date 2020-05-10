@@ -1,6 +1,9 @@
 header {
   font-size: 2.5em;
   color: red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #navigation {
