@@ -1,0 +1,51 @@
+/*
+style.css
+--------- Par Frederic M*/
+
+/*-------------*/
+
+/* responsive */
+
+/* polices */
+@font-face 
+
+{
+    font-family: 'libre_caslon_displayregular';
+    src: url(fonts/'librecaslondisplay-regular-webfont.eot');
+    src: url(fonts/'librecaslondisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url(fonts/'librecaslondisplay-regular-webfont.woff2') format('woff2'),
+         url(fonts/'librecaslondisplay-regular-webfont.woff') format('woff'),
+         url(fonts/'librecaslondisplay-regular-webfont.ttf') format('truetype'),
+         url(fonts/'librecaslondisplay-regular-webfont.svg#libre_caslon_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media only screen and (max-device-width: 480px)
+{
+    
+    p
+    {
+        color: black; 
+        background-color: white;
+        font-size: 1.8em;
+    }
+
+}
+
+header
+{
+    font-size: 2.5em;
+    color: midnightblue;
+}
+#navigation
+{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
